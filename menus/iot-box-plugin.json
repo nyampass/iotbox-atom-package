@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle iot-box-plugin",
+        "command": "iot-box-plugin:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "iot-box-plugin",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "iot-box-plugin:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

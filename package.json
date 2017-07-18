@@ -1,0 +1,20 @@
+{
+  "name": "iot-box-plugin",
+  "main": "./lib/iot-box-plugin",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "iot-box-plugin:toggle"
+  },
+  "repository": "https://github.com/atom/iot-box-plugin",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "ws": "3.0.0",
+    "atom-space-pen-views": "2.2.0"
+  }
+}

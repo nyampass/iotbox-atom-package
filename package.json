@@ -6,7 +6,11 @@
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "iot-box-plugin:toggle"
+    "atom-workspace": [
+      "iot-box-plugin:toggle",
+      "iot-box-plugin:put-file",
+      "iot-box-plugin:run"
+    ]
   },
   "repository": "https://github.com/atom/iot-box-plugin",
   "license": "MIT",
@@ -15,6 +19,7 @@
   },
   "dependencies": {
     "ws": "3.0.0",
-    "atom-space-pen-views": "2.2.0"
+    "atom-space-pen-views": "2.2.0",
+    "moment": "2.18.1"
   }
 }

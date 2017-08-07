@@ -1,18 +1,19 @@
 {
-  "name": "iot-box-plugin",
+  "name": "iot-box",
   "main": "./lib/iot-box-plugin",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "0.0.1",
+  "description": "Atom package for deploying  javascript code to Raspberry Pi",
   "keywords": [
   ],
   "activationCommands": {
     "atom-workspace": [
       "iot-box-plugin:toggle",
       "iot-box-plugin:put-file",
-      "iot-box-plugin:run"
+      "iot-box-plugin:update-npm",
+      "iot-box-plugin:setup-rpi"
     ]
   },
-  "repository": "https://github.com/atom/iot-box-plugin",
+  "repository": "https://github.com/nyampass/iotbox-atom-package",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
@@ -20,6 +21,7 @@
   "dependencies": {
     "ws": "3.0.0",
     "atom-space-pen-views": "2.2.0",
-    "moment": "2.18.1"
+    "moment": "2.18.1",
+    "ssh2": "0.5.5"
   }
 }

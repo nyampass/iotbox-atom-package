@@ -7,10 +7,10 @@
   ],
   "activationCommands": {
     "atom-workspace": [
-      "iot-box:toggle",
-      "iot-box:put-file",
-      "iot-box:update-npm",
-      "iot-box:setup-rpi"
+      "iotbox:toggle",
+      "iotbox:put-file",
+      "iotbox:update-npm",
+      "iotbox:setup-rpi"
     ]
   },
   "repository": "https://github.com/nyampass/iotbox-atom-package",

@@ -1,10 +1,9 @@
 {
   "name": "iotbox",
   "main": "./lib/iotbox",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Atom package for deploying  javascript code to Raspberry Pi",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": [
       "iotbox:toggle",
